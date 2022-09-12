@@ -14,8 +14,8 @@ int main(void)
 {
 
 
-	char c;
-	char d;
+	int c;
+	int d;
 
 	for (c = '0'; c <= '8'; c++)
 
