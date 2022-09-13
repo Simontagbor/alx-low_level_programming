@@ -17,25 +17,27 @@ int main(void)
 	int c;
 	int d;
 
-	for (c = '0'; c <= '8'; c++)
+	for (c = '0'; c <= '9'; c++)
 
 	{
-
 
 		for (d = '0'; d <= '9'; d++)
 		{
 			if (d != c && c < d)
 			{
-				putchar(c);
-				putchar(d);
-				putchar(',');
-				putchar(' ');
-			}
 
+				if (c !='8' && d != '9')
+				{
+					putchar(c);
+					putchar(d);
+					putchar(',');
+					putchar(' ');
+				}
+
+			}
 		}
 
 	}
-
 	return (0);
 
 }
