@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * main - Prints "Holberton" followed by a new line.
+ * main - Prints "Putchar" followed by a new line.
  *
  * Return: Always 0.
  */
-int main(void)
+int  main(void)
 {
 	_putchar('p');
 	_putchar('u');
