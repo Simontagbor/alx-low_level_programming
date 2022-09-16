@@ -19,5 +19,6 @@ void print_times_table(int n);
 int _isdigit(int c);
 int mul(int a, int b);
 void print_numbers(void);
+void print_most_numbers(void);
 int print_last_digit(int);
 #endif
