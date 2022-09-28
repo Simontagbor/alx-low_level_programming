@@ -2,8 +2,8 @@
 
 /**
  * _strcat - a function to concatenate string constants
- * @*dest: an argument of the char type that references a first string
- * @*src: an argument of the char type that references a second string
+ * @dest: an argument of the char type that references a first string
+ * @src: an argument of the char type that references a second string
  *
  * Return: a pointer to resulting sring dest
  */
