@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
 
 			if (isdigit(*argv[count]) != 0)
 			{
-				result = result + atoi(argv[count]);
+				result += atoi(argv[count]);
 			}
 			else
 			{
