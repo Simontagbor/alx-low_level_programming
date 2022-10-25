@@ -5,7 +5,7 @@
 
 /**
  * File: lists.h
- * Auth: Brennan D Baraban
+ * Auth: Simon Tagbor
  * Desc: Header file containing prototypes and definitions for all functions
  *       and types written in the 0x12-more_singly_linked_lists director
  */
@@ -32,3 +32,4 @@ typedef struct listint_s
 } listint_t;
 
 size_t print_listint(const listint_t *h);
+size_t listint_len(const listint_t *h);
