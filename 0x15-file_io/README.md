@@ -1,1 +1,1 @@
-a new directory to practice file io
+a place to practice fileios
