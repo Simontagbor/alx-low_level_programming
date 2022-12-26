@@ -1,4 +1,4 @@
-/**
+/*
  * file: 1-dlistint_len.c
  * Auth: Simon Tagbor <simontagbor360@gmail.com>
  */
@@ -11,14 +11,15 @@
  *
  * Return: The number of elements in a linked list.
  */
+size_t dlistint_len(const dlistint_t *h)
+{
+	size_t len = 0;
 
-size_t dlistint_len(const dlistint_t *h) {
-    size_t len = 0;
+	while (h)
+	{
+		len++;
+		h = h->next;
+	}
 
-    /*loop through elements*/
-    while(h){
-        len++;
-        h = h->next;
-    }
-    return (len);
+	return (len);
 }
