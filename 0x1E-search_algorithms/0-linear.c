@@ -1,3 +1,10 @@
+/*
+ * File: 0-linear.c
+ * Auth: Simon Tagbor
+ */
+
+#include "search_algos.h"
+
 /**
  * linear_search - Searches for a value in an array using linear search.
  * @array: Pointer to the first element of the array.
@@ -6,7 +13,6 @@
  *
  * Return: The first index where the value is located, or -1 if not found.
  */
-#include "search_algos.h"
 
 int linear_search(int *array, size_t size, int value)
 {
@@ -16,7 +22,7 @@ int linear_search(int *array, size_t size, int value)
 		return (-1);
 
 	for (i = 0; i < size; i++)
-	{	printf("Value checked array[%ld] = [%d]\n", i, array[i]);
+	{	printf( "Value checked array[%ld] = [%d]\n", i, array[i]);
 		if (array[i] == value)
 			return (i);
 	}
