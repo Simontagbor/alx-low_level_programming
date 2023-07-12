@@ -1,3 +1,10 @@
+/*
+ * File: 1-binary.c
+ * Auth: Simon Tagbor
+ */
+
+#include "search_algos.h"
+
 /**
  * binary_search - Searches for a value in a sorted array using binary search.
  * @array: Pointer to the first element of the sorted array.
@@ -6,10 +13,6 @@
  *
  * Return: The index of the target value, or -1 if not found.
  */
-#include <stdio.h>
-#include "search_algos.h"
-
-
 
 int binary_search(int *array, size_t size, int value)
 {
@@ -17,6 +20,7 @@ int binary_search(int *array, size_t size, int value)
 	int right = size - 1;
 	int mid;
 	int i;
+
 	if (array == NULL)
 	{
 		return (-1);
